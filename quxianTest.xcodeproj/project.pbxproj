@@ -15,6 +15,13 @@
 		5D11E0A91E83AD4B0012C606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D11E0A71E83AD4B0012C606 /* LaunchScreen.storyboard */; };
 		5D11E0B41E83AD4B0012C606 /* quxianTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11E0B31E83AD4B0012C606 /* quxianTestTests.m */; };
 		5D11E0BF1E83AD4B0012C606 /* quxianTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11E0BE1E83AD4B0012C606 /* quxianTestUITests.m */; };
+		5D11E0CE1E83AD680012C606 /* JYRunningGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11E0CD1E83AD680012C606 /* JYRunningGraphView.m */; };
+		5D11E0D11E83AD740012C606 /* JYRunningGraphModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11E0D01E83AD740012C606 /* JYRunningGraphModel.m */; };
+		5D11E0D71E83ADE70012C606 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11E0D41E83ADE70012C606 /* NSObject+YYModel.m */; };
+		5D11E0D81E83ADE70012C606 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11E0D61E83ADE70012C606 /* YYClassInfo.m */; };
+		5D11E0DB1E83AE100012C606 /* UIColor+JYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11E0DA1E83AE100012C606 /* UIColor+JYColor.m */; };
+		5D11E0DE1E83AE420012C606 /* UIView+JYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11E0DD1E83AE420012C606 /* UIView+JYFrame.m */; };
+		5D11E0E11E83AF900012C606 /* JYRunningChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D11E0E01E83AF900012C606 /* JYRunningChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		5D11E0BA1E83AD4B0012C606 /* quxianTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quxianTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D11E0BE1E83AD4B0012C606 /* quxianTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quxianTestUITests.m; sourceTree = "<group>"; };
 		5D11E0C01E83AD4B0012C606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D11E0CC1E83AD680012C606 /* JYRunningGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRunningGraphView.h; sourceTree = "<group>"; };
+		5D11E0CD1E83AD680012C606 /* JYRunningGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRunningGraphView.m; sourceTree = "<group>"; };
+		5D11E0CF1E83AD740012C606 /* JYRunningGraphModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRunningGraphModel.h; sourceTree = "<group>"; };
+		5D11E0D01E83AD740012C606 /* JYRunningGraphModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRunningGraphModel.m; sourceTree = "<group>"; };
+		5D11E0D31E83ADE70012C606 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		5D11E0D41E83ADE70012C606 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		5D11E0D51E83ADE70012C606 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		5D11E0D61E83ADE70012C606 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		5D11E0D91E83AE100012C606 /* UIColor+JYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JYColor.h"; sourceTree = "<group>"; };
+		5D11E0DA1E83AE100012C606 /* UIColor+JYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JYColor.m"; sourceTree = "<group>"; };
+		5D11E0DC1E83AE420012C606 /* UIView+JYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JYFrame.h"; sourceTree = "<group>"; };
+		5D11E0DD1E83AE420012C606 /* UIView+JYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYFrame.m"; sourceTree = "<group>"; };
+		5D11E0DF1E83AF900012C606 /* JYRunningChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRunningChartView.h; sourceTree = "<group>"; };
+		5D11E0E01E83AF900012C606 /* JYRunningChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRunningChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,17 @@
 		5D11E0981E83AD4B0012C606 /* quxianTest */ = {
 			isa = PBXGroup;
 			children = (
+				5D11E0D21E83ADE70012C606 /* YYModel */,
+				5D11E0CF1E83AD740012C606 /* JYRunningGraphModel.h */,
+				5D11E0D01E83AD740012C606 /* JYRunningGraphModel.m */,
+				5D11E0CC1E83AD680012C606 /* JYRunningGraphView.h */,
+				5D11E0CD1E83AD680012C606 /* JYRunningGraphView.m */,
+				5D11E0DF1E83AF900012C606 /* JYRunningChartView.h */,
+				5D11E0E01E83AF900012C606 /* JYRunningChartView.m */,
+				5D11E0D91E83AE100012C606 /* UIColor+JYColor.h */,
+				5D11E0DA1E83AE100012C606 /* UIColor+JYColor.m */,
+				5D11E0DC1E83AE420012C606 /* UIView+JYFrame.h */,
+				5D11E0DD1E83AE420012C606 /* UIView+JYFrame.m */,
 				5D11E09C1E83AD4B0012C606 /* AppDelegate.h */,
 				5D11E09D1E83AD4B0012C606 /* AppDelegate.m */,
 				5D11E09F1E83AD4B0012C606 /* ViewController.h */,
@@ -138,6 +170,17 @@
 				5D11E0C01E83AD4B0012C606 /* Info.plist */,
 			);
 			path = quxianTestUITests;
+			sourceTree = "<group>";
+		};
+		5D11E0D21E83ADE70012C606 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D11E0D31E83ADE70012C606 /* NSObject+YYModel.h */,
+				5D11E0D41E83ADE70012C606 /* NSObject+YYModel.m */,
+				5D11E0D51E83ADE70012C606 /* YYClassInfo.h */,
+				5D11E0D61E83ADE70012C606 /* YYClassInfo.m */,
+			);
+			path = YYModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +250,7 @@
 				TargetAttributes = {
 					5D11E0951E83AD4B0012C606 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LME682U793;
 						ProvisioningStyle = Automatic;
 					};
 					5D11E0AE1E83AD4B0012C606 = {
@@ -273,9 +317,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D11E0CE1E83AD680012C606 /* JYRunningGraphView.m in Sources */,
+				5D11E0D11E83AD740012C606 /* JYRunningGraphModel.m in Sources */,
+				5D11E0DE1E83AE420012C606 /* UIView+JYFrame.m in Sources */,
 				5D11E0A11E83AD4B0012C606 /* ViewController.m in Sources */,
+				5D11E0D71E83ADE70012C606 /* NSObject+YYModel.m in Sources */,
 				5D11E09E1E83AD4B0012C606 /* AppDelegate.m in Sources */,
+				5D11E0E11E83AF900012C606 /* JYRunningChartView.m in Sources */,
 				5D11E09B1E83AD4B0012C606 /* main.m in Sources */,
+				5D11E0DB1E83AE100012C606 /* UIColor+JYColor.m in Sources */,
+				5D11E0D81E83ADE70012C606 /* YYClassInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LME682U793;
 				INFOPLIST_FILE = quxianTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhidoushi.quxianTest;
@@ -435,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LME682U793;
 				INFOPLIST_FILE = quxianTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhidoushi.quxianTest;
