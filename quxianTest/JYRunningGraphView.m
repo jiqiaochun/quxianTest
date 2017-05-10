@@ -58,6 +58,8 @@ static const CGFloat kCoordinateLineWith = 0.5;
 // 初始化
 - (instancetype)initWithFrame:(CGRect)frame andPointArray:(NSArray<JYRunningGraphModel *> *)pointArray andSpeedRangeArray:(NSArray<NSString *> *)speedRangeArray andTotalTime:(NSString *)totalTime{
     
+    
+    // 注释
     if (self = [super initWithFrame:frame]) {
         
         self.totalTime = totalTime;
